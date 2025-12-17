@@ -1,13 +1,34 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/style.css" rel="stylesheet">
-    <title>timtalkstales</title>
+    <title>Tim Talks Tales</title>
   </head>
-  <body>
-    <h1>timtalkstales</h1>
+
+  <body class="h-screen bg-paper">
+
+    <!-- navigation -->
+    <nav class="flex justify-center text-center py-4 font-semibold text-navyblue">
+      <ul class="flex flex-col items-center md:flex-row justify-center w-full">
+        <li class="w-1/4 p-2">Home</li>
+        <li class="w-1/4 p-2">Reviews</li>
+        <li class="w-1/4 p-2">Rating system</li>
+        <li class="w-1/4 p-2">About</li>
+      </ul>
+    </nav>
+
+    <!-- introduction block -->
+    <div class="flex flex-col items-center text-center py-4 bg-navyblue">
+      <h1 class="my-4 p-4 text-4xl text-paper">Tim Talks Tales</h1>
+      <h2 class="my-4 px-6 text-xl text-paper">Reviews on anime, manga, books, games and more</h2>
+      <button class=" my-4 p-4 rounded-full text-xl bg-paper text-darkblue">Explore</button>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
+
   </body>
+
 </html>
