@@ -8,24 +8,34 @@
     <title>Tim Talks Tales</title>
   </head>
 
-  <body class="h-screen bg-paper">
+  <body class="flex flex-col h-screen bg-paper">
 
-    <!-- navigation -->
-    <nav class="flex justify-center text-center py-4 font-semibold text-navyblue">
+    <!-- navigation block -->
+    <nav class="flex justify-center text-center py-4 font-semibold font-proza-libre text-navyblue">
       <ul class="flex flex-col items-center md:flex-row justify-center w-full">
-        <li class="w-1/4 p-2">Home</li>
-        <li class="w-1/4 p-2">Reviews</li>
-        <li class="w-1/4 p-2">Rating system</li>
-        <li class="w-1/4 p-2">About</li>
+        <li class="md:w-1/4 p-2 md:text-xl hover:scale-110 hover:text-darkviolet duration-500">Home</li>
+        <li class="md:w-1/4 p-2 md:text-xl hover:scale-110 hover:text-darkviolet duration-500">Reviews</li>
+        <li class="md:w-1/4 p-2 md:text-xl hover:scale-110 hover:text-darkviolet duration-500">Rating system</li>
+        <li class="md:w-1/4 p-2 md:text-xl hover:scale-110 hover:text-darkviolet duration-500">About</li>
       </ul>
     </nav>
 
     <!-- introduction block -->
     <div class="flex flex-col items-center text-center py-4 bg-navyblue">
-      <h1 class="my-4 p-4 text-4xl text-paper">Tim Talks Tales</h1>
-      <h2 class="my-4 px-6 text-xl text-paper">Reviews on anime, manga, books, games and more</h2>
-      <button class=" my-4 p-4 rounded-full text-xl bg-paper text-darkblue">Explore</button>
+      <h1 class="my-4 p-4 text-4xl md:text-6xl uppercase font-cormorant-garamond text-paper">Tim Talks Tales</h1>
+      <h2 class="my-4 p-4 text-lg md:text-xl font-proza-libre text-paper">Reviews on anime, manga, books, games and more</h2>
+      <button class=" my-4 px-4 py-2 rounded-full text-lg md:text-xl font-proza-libre bg-paper text-darkblue hover:scale-110 hover:text-darkviolet duration-500">Explore</button>
     </div>
+
+    <!-- main block -->
+    <main class="flex grow justify-center font-proza-libre">
+      <p class="py-8">Some placeholder text for now</p>
+    </main>
+
+    <!-- footer block -->
+    <footer class="flex justify-center md:justify-end font-proza-libre bg-navyblue">
+      <p class="p-4 text-paper">@2025</p>
+    </footer>
 
     <script type="module" src="/src/main.js"></script>
 

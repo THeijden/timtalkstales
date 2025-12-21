@@ -1,6 +1,17 @@
+/* import google themes */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* import tailwind */
 @import "tailwindcss";
 
+/* custom theme */
 @theme {
+  /* custom themes */
+  --font-cormorant-garamond: "Cormorant Garamond", serif;
+  --font-proza-libre: "Proza Libre", sans-serif;
+
+  /* custom colors */
   --color-darkblue: #0d0c1d;
   --color-navyblue: #161b33;
   --color-darkviolet: #474973;
